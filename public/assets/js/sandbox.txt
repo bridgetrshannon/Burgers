@@ -22,3 +22,6 @@ becomes devoured
 
 delete-cat
 becomes delete-burger
+
+sleep
+becomes devour
