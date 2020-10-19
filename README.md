@@ -1,5 +1,9 @@
 # The Burger Place
 
+## Description
+
+The Burger Place is an application created using MySQL, Node, Express, Handlebars and an ORM. The MVC design pattern is utilized. Node and MySQL query and route the data in the application while Handlebars generates the HTML.
+
 ## Languages
 
 <img float="left" alt="JavaScript badge" src="https://img.shields.io/badge/JavaScript-68%25-yellow">
@@ -7,10 +11,6 @@
 <img float="left" alt="Handlebars badge" src="https://img.shields.io/badge/Handlebars-23%25-orange">
 
 <img float="left" alt="CSS badge" src="https://img.shields.io/badge/CSS-9%25-blueviolet">
-
-## Description
-
-The Burger Place is an application created using MySQL, Node, Express, Handlebars and an ORM. The MVC design pattern is utilized. Node and MySQL query and route the data in the application while Handlebars generates the HTML.
 
 ## Features
 
