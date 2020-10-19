@@ -2,12 +2,6 @@
   font-weight: bold;
 }
 
-/* .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-} */
-
 .form-group {
   margin-bottom: 5px;
 }
@@ -15,7 +9,7 @@
 h1,
 h2,
 form,
-li {
+ul {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
