@@ -25,4 +25,5 @@ body {
 .delete-burger,
 .add-burger {
   font-family: "Roboto Condensed", sans-serif;
+  margin: 3px;
 }
