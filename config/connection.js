@@ -6,7 +6,7 @@ var connection;
 // connected but getting error that the burgers table doesn't exist
 
 if (process.env.JAWSDB_URL){
-  console.log(JAWSDB_URL);
+  console.log(process.env.JAWSDB_URL);
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
