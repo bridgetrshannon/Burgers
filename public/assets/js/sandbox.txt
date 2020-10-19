@@ -1,0 +1,27 @@
+burgers.js file
+- need to change the below items to burger-specific items 
+
+
+change-sleep
+becomes change-devour
+
+newSleep
+becomes newDevour
+
+newSleepState
+becomes newDevourState
+
+newCat
+becomes newBurger
+
+sleepy
+becomes devoured
+
+[name=sleepy]:checked
+becomes devoured
+
+delete-cat
+becomes delete-burger
+
+sleep
+becomes devour
