@@ -2,7 +2,11 @@ var mysql = require("mysql");
 // Global for connection
 var connection;
 // If on Heroku use the Envirnmental Variable for JawsDB
+
+// connected but getting error that the burgers table doesn't exist
+
 if (process.env.JAWSDB_URL){
+  console.log(JAWSDB_URL);
   connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
