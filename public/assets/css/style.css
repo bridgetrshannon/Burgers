@@ -4,6 +4,7 @@
 
 .form-group {
   margin-bottom: 5px;
+  text-align: center;
 }
 
 h1,
@@ -21,9 +22,61 @@ body {
   /* background-repeat: repeat; */
 }
 
+/* div {
+  text-align: center;
+} */
+
 .change-devour,
 .delete-burger,
 .add-burger {
   font-family: "Roboto Condensed", sans-serif;
   margin: 3px;
+  padding: 5px;
+  background-color: lightsteelblue;
+  text-align: center;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.notDevouredLeft,
+.devouredRight,
+.addBurgerCenter {
+  /* float: left; */
+  display: inline-table;
+}
+
+.addBurgerCenter {
+  line-height: 200%;
+}
+
+.background {
+  text-align: center;
+}
+
+.transbox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.7;
+  border-radius: 25px;
+}
+
+.card-body {
+  padding: 30px;
+  text-align: center;
+}
+
+.change-devour:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.delete-burger:hover {
+  background-color: red;
+  color: white;
+}
+
+.add-burger:hover {
+  background-color: blue;
+  color: white;
 }
